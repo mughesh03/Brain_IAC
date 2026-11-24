@@ -1,0 +1,20 @@
+val
+accuracy: 0.7190
+precision: 0.7211
+recall: 0.7161
+f1: 0.7164
+auroc: 0.8700
+confusion_matrix:
+[[99, 11, 12],
+ [12, 67, 16],
+ [29, 13, 72]]
+test
+accuracy: 0.7201
+precision: 0.7170
+recall: 0.7176
+f1: 0.7172
+auroc: 0.8571
+confusion_matrix:
+[[82, 14, 12],
+ [ 8, 58, 18],
+ [16, 14, 71]]

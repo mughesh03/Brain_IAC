@@ -1,0 +1,5 @@
+torch
+monai==1.3.2
+einops
+numpy
+scikit-learn

@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Model Checkpoints (>100 MB)
+src/checkpoints/*
+!src/checkpoints/.gitkeep
+*.ckpt
+*.pt
+*.pth
+
+# Dataset arrays (>100 MB)
+src/data/*
+!src/data/.gitkeep
+*.npy
+
+# Generated features
+src/features/*
+!src/features/.gitkeep
+*.npz
+
+# Virtual environments & IDEs
+venv/
+.venv/
+env/
+.vscode/
+.idea/
